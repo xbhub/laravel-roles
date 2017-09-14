@@ -394,4 +394,4 @@ For more information, please have a look at [HasRoleAndPermission](https://githu
 
 ## License
 
-This package is free software distributed under the terms of the MIT license.
+MIT
