@@ -1,6 +1,6 @@
 <?php
 
-namespace Bican\Roles\Traits;
+namespace Xbhub\Roles\Traits;
 
 use Illuminate\Support\Str;
 

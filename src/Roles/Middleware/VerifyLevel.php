@@ -1,10 +1,10 @@
 <?php
 
-namespace Bican\Roles\Middleware;
+namespace Xbhub\Roles\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
-use Bican\Roles\Exceptions\LevelDeniedException;
+use Xbhub\Roles\Exceptions\LevelDeniedException;
 
 class VerifyLevel
 {
@@ -31,7 +31,7 @@ class VerifyLevel
      * @param \Closure $next
      * @param int $level
      * @return mixed
-     * @throws \Bican\Roles\Exceptions\LevelDeniedException
+     * @throws \Xbhub\Roles\Exceptions\LevelDeniedException
      */
     public function handle($request, Closure $next, $level)
     {

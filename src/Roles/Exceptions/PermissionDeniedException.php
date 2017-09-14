@@ -1,6 +1,6 @@
 <?php
 
-namespace Bican\Roles\Exceptions;
+namespace Xbhub\Roles\Exceptions;
 
 class PermissionDeniedException extends AccessDeniedException
 {

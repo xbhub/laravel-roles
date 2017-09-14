@@ -1,6 +1,6 @@
 <?php
 
-namespace Bican\Roles\Contracts;
+namespace Xbhub\Roles\Contracts;
 
 interface PermissionHasRelations
 {

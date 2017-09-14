@@ -1,6 +1,6 @@
 <?php
 
-namespace Bican\Roles;
+namespace Xbhub\Roles;
 
 use Illuminate\Support\ServiceProvider;
 

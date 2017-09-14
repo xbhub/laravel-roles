@@ -1,11 +1,11 @@
 <?php
 
-namespace Bican\Roles\Models;
+namespace Xbhub\Roles\Models;
 
-use Bican\Roles\Traits\Slugable;
+use Xbhub\Roles\Traits\Slugable;
 use Illuminate\Database\Eloquent\Model;
-use Bican\Roles\Traits\PermissionHasRelations;
-use Bican\Roles\Contracts\PermissionHasRelations as PermissionHasRelationsContract;
+use Xbhub\Roles\Traits\PermissionHasRelations;
+use Xbhub\Roles\Contracts\PermissionHasRelations as PermissionHasRelationsContract;
 
 class Permission extends Model implements PermissionHasRelationsContract
 {
