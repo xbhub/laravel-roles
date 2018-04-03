@@ -100,7 +100,7 @@ trait HasRoleAndPermission
      */
     public function hasRole($role)
     {
-        return $this->getRoles()->contains(function ($value, $key) use ($role) {
+        return $this->getRoles()->contains(function ($key, $value) use ($role) {
             return $role == $value->id || Str::is($role, $value->slug);
         });
     }
@@ -327,7 +327,7 @@ trait HasRoleAndPermission
     public function detachAllPermissions()
     {
         $this->permissions = null;
-        
+
         return $this->userPermissions()->detach();
     }
 
